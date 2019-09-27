@@ -8,7 +8,7 @@
 # of patent rights can be found in the PATENTS file in the same directory.
 #
 
-set -eu
+set -xeu
 
 function prebootSimulator() {
   if [ -z "${DESTINATION:-}" ]; then
